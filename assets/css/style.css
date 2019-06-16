@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 
 body{
-    /* background-image: url("assets/images/background-image.png"); */
+    background-image: url("../images/background-image.png");
     background-color: #cccccc;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -30,9 +30,9 @@ body{
     top: 0;
     left: 0;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding: 0;
-    height: 60px;
+    height: 80px;
     width: 100%;
     background-color: white;
 }
@@ -42,6 +42,7 @@ header{
     width: 960px;
     min-height: 100%;
     margin: auto;
+    font-size: 35px;
 }
 
 h1{
@@ -59,20 +60,29 @@ h1{
 nav{
     position: absolute;
     right: 0;
-    height: 75px;
     width: 400px;
     float: right;
 }
 
 .nav-link{
     float: right;
-    padding: 25px;
+    margin: 25px 0px 25px 0px;
+    padding: 0px 25px 0px 25px;
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.vl{
+    border-right: 2px solid ghostwhite;
+    height: 25px;
 }
 
 h2{
     color: teal;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 20px;
+    font-size: 25px;
 }
 
 hr{
@@ -92,10 +102,15 @@ hr{
 
 .section-element{
     padding: 20px;
+}
+
+#my-image{    
     float: left;
 }
 
-#my-image{
+#facts-list{
+    float: left;
+    margin-left: 25px;
 }
 
 .clear-fix{

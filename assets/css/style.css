@@ -104,6 +104,14 @@ hr{
     padding: 20px;
 }
 
+.projects{
+    background-color: teal;
+    border: 3px black solid;
+    float: left;
+    margin: 30px;
+    padding: 200px 175px;
+}
+
 #my-image{    
     float: left;
 }

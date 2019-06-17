@@ -155,7 +155,8 @@ input{
     height: 20px;
 }
 
-#my-image{    
+#my-image{
+    width: 250px;    
     float: left;
 }
 

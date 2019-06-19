@@ -160,6 +160,11 @@ input{
     float: left;
 }
 
+#facts-list-cont{
+    float: left;
+    
+}
+
 #facts-list{
     float: left;
     margin-left: 25px;

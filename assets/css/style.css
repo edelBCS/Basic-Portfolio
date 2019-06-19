@@ -52,6 +52,7 @@ h1{
 nav{
     position: absolute;
     right: 0;
+    margin-top: 5px;
     width: 400px;
     float: right;
 }
@@ -62,7 +63,7 @@ nav{
     color: grey;
     text-decoration: none;
     font-size: 20px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 5px 5px;
 
 }
 
@@ -117,7 +118,7 @@ hr{
 
 .project-text{
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: teal;
@@ -141,13 +142,13 @@ input{
 }
 
 #facts-list-cont{
-    float: left;
-    
+    float: left;    
 }
 
 #facts-list{
     float: left;
     margin-left: 25px;
+    list-style-type: disc;
 }
 
 .submit-button{

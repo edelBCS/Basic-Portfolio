@@ -6,6 +6,7 @@ body{
     /* hide scroll bars */
     overflow-x: hidden;
     overflow-y: scroll;
+    line-height: 1.1em;
 }
 
 /* hide scroll bars */
